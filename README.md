@@ -82,7 +82,7 @@
 <img width="484" alt="화면 캡처 2023-03-05 000934" src="https://user-images.githubusercontent.com/95980754/222913735-275ef613-e3e8-4ca1-a461-59bac8076c41.png">
 
 * 사용자가 /list 페이지에서 게시글을 포스팅하면 PageRequestDTO 형태로 BoardController에 전달됩니다. 📌[코드 확인](src/main/java/org/zerock/b01/controller/BoardController.java)
-* attribute 메서드를 통해 model에 데이터를 담아 view로 데이터를 전달합니다.
+* addattribute 메서드를 통해 model에 데이터를 담아 view로 데이터를 전달합니다.
 
 ### 3-6. 게시글 검색  
   
