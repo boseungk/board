@@ -34,6 +34,14 @@
 <summary>핵심 기능 설명 펼치기</summary>
 <div markdown="1">
 
+### 3-1. 전체 흐름
+
+
+<img width="634" alt="화면 캡처 2023-03-04 225718" src="https://user-images.githubusercontent.com/95980754/222906620-169da318-f300-4610-89df-366a2a1e6138.png">
+
+<img width="632" alt="화면 캡처 2023-03-04 205645" src="https://user-images.githubusercontent.com/95980754/222906550-7fba8268-ef7e-4e90-890f-73c68e37d1f1.png">
+
+<img width="634" alt="화면 캡처 2023-03-04 205701" src="https://user-images.githubusercontent.com/95980754/222906551-cb43b4f9-f048-4f06-adb3-15b218462334.png">
 
 
 </div>
