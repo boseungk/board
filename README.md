@@ -40,7 +40,8 @@
 
 <img width="634" alt="화면 캡처 2023-03-04 205701" src="https://user-images.githubusercontent.com/95980754/222906551-cb43b4f9-f048-4f06-adb3-15b218462334.png">
 
-<img width="606" alt="화면 캡처 2023-03-05 162742" src="https://user-images.githubusercontent.com/95980754/222947639-8e16faa9-b131-42cc-8104-d6f19cf8b1f1.png">
+<img width="606" alt="화면 캡처 2023-03-05 162742" src="https://user-images.githubusercontent.com/95980754/222953134-44de6852-e1b3-4fa6-b258-6f322a7c474c.png">
+
 
 
 ### 3-2. 게시판 CRUD 기능
