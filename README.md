@@ -1,7 +1,7 @@
 ## 📌게시판 토이 프로젝트
 ----------------------------------------------
 ### 1. 제작 기간 & 참여 인원
-* 2022년 12월 28일 ~ 2023년 1월 28일
+* 2022년 12월 23일 ~ 2023년 1월 27일
 * 개인 프로젝트
 
 
@@ -34,11 +34,14 @@
 ### 3-1. 전체 흐름
 
 
-<img width="634" alt="화면 캡처 2023-03-04 225718" src="https://user-images.githubusercontent.com/95980754/222906620-169da318-f300-4610-89df-366a2a1e6138.png">
+<img width="634" alt="화면 캡처 2023-03-05 162245" src="https://user-images.githubusercontent.com/95980754/222947426-7fb73b64-e1d2-44ca-88cb-adfea0aa70c1.png">
 
 <img width="632" alt="화면 캡처 2023-03-04 205645" src="https://user-images.githubusercontent.com/95980754/222906550-7fba8268-ef7e-4e90-890f-73c68e37d1f1.png">
 
 <img width="634" alt="화면 캡처 2023-03-04 205701" src="https://user-images.githubusercontent.com/95980754/222906551-cb43b4f9-f048-4f06-adb3-15b218462334.png">
+
+<img width="606" alt="화면 캡처 2023-03-05 162742" src="https://user-images.githubusercontent.com/95980754/222947639-8e16faa9-b131-42cc-8104-d6f19cf8b1f1.png">
+
 
 ### 3-2. 게시판 CRUD 기능
  
@@ -117,10 +120,18 @@
 
 <img width="508" alt="화면 캡처 2023-03-05 154307" src="https://user-images.githubusercontent.com/95980754/222945921-7ce38084-c9d3-4f35-bdd2-65e7eb7e62bd.png">
  
-* Querydsl의 Booleanbuilder를 이용해서 검색 기준에 맞게 Query에 OR 조건을 추가해서 DB에서 검색한 후 결과를 가져옵니다. 📌[BoardSearchImpl](src/main/java/org/zerock/b01/repository/search/BoardSearchImpl.java)
+* searchAll에서 Querydsl의 Booleanbuilder를 이용해서 검색 기준에 맞게 Query에 OR 조건을 추가해서 DB에 검색한 후 결과를 가져옵니다. 📌[BoardSearchImpl](src/main/java/org/zerock/b01/repository/search/BoardSearchImpl.java)
 
 </div>
 </details>
 
 ### 4. 느낀점
 ----------------------------------------------
+#### 4-1. 기반 기술에 대한 이해의 중요성
+* 스프링 부트를 통해 웹 애플리케이션을 만들면서 내부가 어떻게 돌아가는지 알 수 없어서 답답함을 느꼈습니다. 그래서 스프링의 기반 기술인 Http와 Servlet에 대해서 공부하기 시작했습니다. 이를 통해서 스프링의 기반기술인 Servlet이 어떤 식으로 Http 메시지를 처리하는지 이해하게 되었습니다. 예를 들어서 Redirection의 경우 Servlet을 통해 Http 응답 메시지에 3XX 응답의 결과를 넣습니다. 그럼 브라우저가 Http 응답 메시지을 읽고 리다이렉션이 이뤄지게 됩니다. 이를 통해 스프링 내부에서 어떤 일이 일어나는지 더 깊게 알게 되었습니다.
+
+#### 4-2. 객체지향의 장점에 대한 이해
+* 스프링으로 웹 애플리케이션을 만들면서 '왜 번거롭게 인터페이스를 이용해서 클래스를 구현하는 걸까?'라는 의문을 가지게 되었습니다. 이에 대한 답을 찾기 위해서 추가로 객체지향에 대해 공부를 하게 되었습니다. 좋은 객체지향 설계는 구체화에 의존하지 않고 추상화에만 의존합니다. 이를 통해서 부품을 바꿔 끼우듯 클래스의 교체가 쉬워집니다. 또한 인터페이스로 구현된 클래스의 추가적인 유지 보수 비용이 줄어듭니다. 이를 통해 스프링이 객체지향적으로 매우 우아한 기술이라는 것을 알게 되었습니다.
+
+### 4-3. 데이터베이스에 대한 추가적인 공부의 필요성
+* 게시판
